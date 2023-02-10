@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send({ massage: "Node server is running..." });
+  res.send({ massage: "Node server is running It is Update..." });
 });
 
 app.listen(port, () => {
